@@ -1,17 +1,13 @@
 #include<iostream>
 using namespace std;
 int main() {
-    int num;
-    cout<<"nhập số : "; cin>>num;
-    switch (num%2)
-    {
-    case 0 :
-        cout<<"số chẳn"<<endl;
-        break;
-    case 1:
-        cout<<"số lẽ"<<endl;
-        break;
+    int n,i;
+    cout<<"nhập n : ";cin>>n;
+    for (i=1;i<=n;i++) {
+        for (int j=1 ;j<=i;j++) {
+            cout<<"*";
+        }
+        cout<<endl;
     }
-    return 0 ;
+    return 0;
 }
-// Bùi chí Giang 

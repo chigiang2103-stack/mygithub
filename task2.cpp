@@ -15,4 +15,5 @@ int main() {
     cout<<"phương trình có nghiệm x1 = "<<(-b + sqrt(denta))/(2*a)<<endl;
     cout<<"phương trình có nghiệm x2 = "<<(-b - sqrt(denta))/(2*a)<<endl;
     }
+    //Bùi Chí Giang
 }
